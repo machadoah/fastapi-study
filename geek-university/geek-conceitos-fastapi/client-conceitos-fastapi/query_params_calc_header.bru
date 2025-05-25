@@ -1,0 +1,21 @@
+meta {
+  name: query_params_calc_header
+  type: http
+  seq: 8
+}
+
+get {
+  url: http://localhost:8000/calc?a=1&b=23&c=1
+  body: none
+  auth: none
+}
+
+params:query {
+  a: 1
+  b: 23
+  c: 1
+}
+
+headers {
+  x-header: Teste
+}

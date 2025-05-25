@@ -1,0 +1,19 @@
+meta {
+  name: put_update_curso
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:8000/api/v1/cursos/3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo":"FastAPI com Docker",
+    "aulas":100,
+    "horas":42
+  }
+}

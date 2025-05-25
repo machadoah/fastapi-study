@@ -1,0 +1,19 @@
+meta {
+  name: post_create_curso
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8000/api/v1/cursos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo":"Docker avançado demais",
+    "aulas":2,
+    "horas":2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "client-conceitos-fastapi",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
